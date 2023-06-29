@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ApiGears xmlns="http://qualit.ibs-qa.ru/schema/api">
+<ApiGears xmlns="http://chameleon.ibs-qa.ru/schema/api">
     <Endpoint name="Сброс тестовых данных" path="api/data/reset">
         <Request name="Сбросить" method="POST" contentType="JSON"/>
         <Response name="Сброс выполнен успешно" contentType="JSON" statusCode="200 OK (хорошо)">
